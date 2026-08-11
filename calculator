@@ -1,0 +1,22 @@
+print("simple calculator")
+a = float(input("enter the first number:"))
+b = float(input("enter the second number:"))
+
+print("1.addition")
+print("2.subtraction")
+print("3.multiplication")
+print("4.division")
+choice =int(input("enter your choice:"))
+if choice==1:
+  print("Result:",a+b)
+elif choice==2:
+  print("Result:",a-b)
+elif choice==3:
+   print(" Result:",a*b)
+elif choice==4:
+   if b !=0:
+    print("Result:",a/b)
+   else:
+      print("cannot divide by zero")
+else:
+     print("invalid choice")
